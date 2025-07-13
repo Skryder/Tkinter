@@ -1,0 +1,170 @@
+Connecting to CMTS IP : 10.4.0.1
+Cable modem IP for collection is: 10.4.1.4
+Collecting Cable modem statistics
+
+          display cable modem 10.4.1.4 detail 
+  -----------------------------------------------------------------------------
+  CM Index                         : 157
+  MAC Address                      : 5823-8C1A-784A
+  IP Address                       : 10.4.1.4
+  IPv6 Address                     : -
+  Dual IP                          : N
+  Prim Sid                         : 490
+  Host Interface                   : 0/1/0/U2
+  MD-DS-SG/MD-US-SG                : 1/1
+  MD-CM-SG                         : 1
+  Primary Downstream               : 0/1/0/D13 (RfId : 240) 
+  RCP ID                           : 00 10 00 10 08 
+  Multi-Transmit Channel Mode      : Y
+  Upstream Channel                 : US1        US2        US3        US4       
+  Ranging Status                   : success    success    success    success   
+  Upstream Transmit Power(dBmV)    : 47.2       47.7       47.0       46.2      
+  Minimum Transmit Power(dBmV)     : 40.2       34.9       40.2       40.2      
+  Peak Transmit Power(dBmV)        : 51.4       50.7       51.4       51.0      
+  Upstream SNR(dB)                 : 36.70      36.40      36.80      36.90     
+  Minimum Upstream SNR(dB)         : 17.20      12.30      12.50      12.40     
+  Peak Upstream SNR(dB)            : 38.10      38.10      38.30      38.30     
+  Upstream Frequency(MHz)          : 28.40      22.00      25.20      31.60     
+  Upstream Received Power(dBmV)    : 6.3        6.3        6.3        6.3       
+  Timing Offset(97.6 ns)           : 756        756        756        756       
+  Timing Offset(0.38 ns)           : 193536     193536     193536     193536    
+  Initial Timing Offset            : 0          0          0          0         
+  Good Codewords rx                : 2294159    2238669    2248778    2243041   
+  Corrected Codewords rx           : 406        1003       732        349       
+  Uncorrectable Codewords rx       : 86         165        96         87        
+  Phy Operating Mode               : ATDMA      ATDMA      ATDMA      ATDMA     
+  T3 Timeouts                      : 136        151        121        127       
+  T4 Timeouts                      : 3          0          0          0         
+  Downstream Channel               : DS9        DS10       DS11       DS12      
+  Downstream Transmit Power(dBmV)  : 38.0       38.0       38.0       38.0      
+  Downstream Frequency(MHz)        : 334.00     342.00     350.00     358.00    
+  Downstream Received Power(dBmV)  : -0.1       0.4        0.4        0.2       
+  Minimum Received Power(dBmV)     : -0.4       0.1        0.2        -0.1      
+  Peak Received Power(dBmV)        : 1.4        1.8        1.7        1.5       
+  Downstream SNR(dB)               : 47.4       46.4       48.6       48.5      
+  Minimum Downstream SNR(dB)       : 42.4       42.5       43.3       43.2      
+  Peak Downstream SNR(dB)          : 48.6       47.4       48.6       48.6      
+  Downstream Micro-reflections(dBc): -34        -21        -31        -28       
+  Downstream MER(dB)               : 47.4       46.4       48.5       48.5      
+  Downstream MER Samples           : 50000      50000      50000      50000     
+  Downstream Channel               : DS13       DS14       DS15       DS16      
+  Downstream Transmit Power(dBmV)  : 38.0       38.0       38.0       38.0      
+  Downstream Frequency(MHz)        : 366.00     374.00     382.00     403.00    
+  Downstream Received Power(dBmV)  : 0.1        -0.6       0.3        1.6       
+  Minimum Received Power(dBmV)     : -0.1       -0.8       0.1        1.5       
+  Peak Received Power(dBmV)        : 1.6        1.1        1.9        1.7       
+  Downstream SNR(dB)               : 48.5       47.4       48.6       49.8      
+  Minimum Downstream SNR(dB)       : 42.7       42.7       42.5       48.5      
+  Peak Downstream SNR(dB)          : 48.6       48.6       48.6       49.9      
+  Downstream Micro-reflections(dBc): -24        -27        -29        -30       
+  Downstream MER(dB)               : 48.5       47.4       48.5       49.5      
+  Downstream MER Samples           : 50000      50000      50000      50000     
+  DS9  Good Codewords rx           : 19522966942
+  DS9  Corrected Codewords rx      : 29272     
+  DS9  Uncorrectable Codewords rx  : 1199      
+  DS10 Good Codewords rx           : 19522860990
+  DS10 Corrected Codewords rx      : 28215     
+  DS10 Uncorrectable Codewords rx  : 920       
+  DS11 Good Codewords rx           : 19522835745
+  DS11 Corrected Codewords rx      : 16967     
+  DS11 Uncorrectable Codewords rx  : 2907      
+  DS12 Good Codewords rx           : 19522748346
+  DS12 Corrected Codewords rx      : 15364     
+  DS12 Uncorrectable Codewords rx  : 1600      
+  DS13 Good Codewords rx           : 19538914855
+  DS13 Corrected Codewords rx      : 18570     
+  DS13 Uncorrectable Codewords rx  : 1273      
+  DS14 Good Codewords rx           : 19522613659
+  DS14 Corrected Codewords rx      : 38133     
+  DS14 Uncorrectable Codewords rx  : 1533      
+  DS15 Good Codewords rx           : 19522620721
+  DS15 Corrected Codewords rx      : 62514     
+  DS15 Uncorrectable Codewords rx  : 1419      
+  DS16 Good Codewords rx           : 19499614878
+  DS16 Corrected Codewords rx      : 16073     
+  DS16 Uncorrectable Codewords rx  : 971       
+  Downstream PER(%)                : 0.001  
+  Upstream PER(%)                  : 0.032  
+  MAC Version                      : DOC3.0
+  QoS Provisioned Mode             : Ver1.1
+  Enable DOCSIS2.0 Mode            : N
+  Modem Status                     : wol
+  Capabilities                     : {Frag=Y, Concat=Y, PHS=N} 
+  Security Capabilities            : N
+  L2VPN Capabilities               : N
+  Sid/Said Limit                   : {Max US Sids=1, Max DS Saids=15}
+  Optional Filtering Support       : {802.1P=N, 802.1Q=N, DUT=N} 
+  Transmit Equalizer Support       : {Taps/Symbol=1, Num of Taps=24} 
+  Number of CPE                    : 2
+  CFG Max-CPE                      : 8
+  CPE1   MAC                       : 5823-8C1A-784B
+  CPE1   IP                        : 10.4.3.4
+  CPE2   MAC                       : 5823-8C1A-784C
+  CPE2   IP                        : 10.4.5.4
+  Count of unstable connection     : 14332
+  Count of Station Maintenance miss: 226522
+  Total US Flows                   : 2
+  Total DS Flows                   : 2
+  Total US Data                    : 4072300 packets, 871966248 bytes
+  Total DS Data                    : 22959689 packets, 29541389504 bytes
+  Total US Error Packets           : 1313 packets
+  LB group ID assigned(index)      : 0
+  LB group ID in config file(index): -
+  LB policy ID                     : 0
+  LB policy ID in config file      : -
+  LB priority                      : 0
+  LB priority in config file       : -
+  Required DS Attribute Mask       : 0x00000000
+  Forbidden DS Attribute Mask      : 0x00000000
+  Required US Attribute Mask       : 0x00000000
+  Forbidden US Attribute Mask      : 0x00000000
+  Service Type ID                  : -
+  Service Type ID in config file   : -
+  CM Upstream CIR(kbps)            : -
+  CM Upstream CBS(bytes)           : -
+  CM Upstream PIR(kbps)            : -
+  CM Upstream PBS(bytes)           : -
+  CM Downstream CIR(kbps)          : -
+  CM Downstream CBS(bytes)         : -
+  CM Downstream PIR(kbps)          : -
+  CM Downstream PBS(bytes)         : -
+  Max Total US Throughput(bps)     : 2584000
+  Max Total DS Throughput(bps)     : 31384000
+  Total US Throughput              : 3080 bps, 1 pps
+  Total DS Throughput              : 856 bps, 1 pps
+  US Active Classifiers            : 2 (max = no limit)
+  DS Active Classifiers            : 1 (max = 32)
+  Voice Enabled                    : enable
+  Number of Multicast DSIDs Support: 16
+  MDF Capability Mode              : 2
+  DS Change Times                  : 0
+  Arrival Time                     : 2025-07-06 03:48:40+08:00
+  Total Time Online                : 6D 13h 51min 44s
+  Config File Name                 : NLVvoip30mbs-sec.cfg
+  T1 Timeouts                      : 0
+  T2 Timeouts                      : 0 
+  Snmp Proxy Update Time           : 2025-07-12 17:39:09+08:00
+  Ranging Class ID                 : 0x6
+  Upstream CRC Error Count         : 0
+  Upstream HCS Error Count         : 0
+  SysDescr                         : Technicolor Cable Voice and Wireless Gate
+                                     way <<HW_REV: 1.0; VENDOR: Technicolor; B
+                                     OOTR: 2.4.0; SW_REV: STDD.01.04; MODEL: T
+                                     C7200.U>>
+  RCC Template ID                  : 0
+  US Bonding Group ID              : 1
+  DS Bonding Group ID              : -
+  RCC ID                           : 33
+  TCS 1.6MHz Power(dBmV)           : -
+  TCS Dynamic Range Window(dBmV)   : 0
+  Address Resolution Reqs          : 0
+  SID Cluster Number               : 1
+  Maximum Requests                 : 128
+  Maximum Outstanding Bytes        : 1000000
+  Maximum Total Bytes              : 500000
+  Maximum Time(ms)                 : 5000
+  Extended US Transmit Power(dBmV) : 0.00   
+  -----------------------------------------------------------------------------
+  Note:In status, "ol" means online.
+
+NLV-PV-MA5633#
