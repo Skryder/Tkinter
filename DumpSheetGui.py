@@ -1,5 +1,6 @@
 from tkinter import *
 from tkinter import ttk
+import Helpers
 import clipboard as cb
 import CMTS_STATS_MODEL as modelFile
 
@@ -29,8 +30,8 @@ class CMTS_Dump_Sheet:
 
     def parseStats(self, *args):
         #Parse the contents of the clipboard into a json format, then construct the statframe widget from that.
-        #print(cb.paste())
-        self.md.parse(cb.paste())
+        print(Helpers.jsonify(cb.paste()))
+        #self.md.parse_from_clipboard(cb.paste().split("\n"))
         #self.outputText.set(cb.paste())
         pass
 
