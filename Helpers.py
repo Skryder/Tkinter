@@ -71,24 +71,23 @@ def clean(input):
     #input[1] = input[1].strip()
     return input[1]
 
-def jsonify(input):
+def dictify(input):
+    dict = {}
     input = input.split("\n")
     for line in input:
+        #Removes all duplicate whitespace
         line = ' '.join(line.split())
         line = line.strip()
-        linelist = line.split(":")
-        linelist[0] = "\"" + linelist[0].strip() + "\""
-        print(linelist[0])
-#        linelist[1] = linelist[1].split(" ")
-#        linetwo = ''
-#        for subline in linelist[1]:
-#            subline = "\"" + subline + "\""
-#            linetwo = linetwo + subline
-        linelist[1] = "\"" + linelist[1].strip() + "\""   
-        print(linelist[1])  
-        line = linelist[0].join(linelist[1])
-        print(line)
-    
+        if(line.find(":") > 0):
+            linelist = line.split(":")
+            linelist[0] = linelist[0].strip()
+            linelist[1] = linelist[1].strip()
+            if(linelist[1].find(" ") > 0): #If there are multiple values (E.g upstream SNR)
+                linelist[1] = linelist[1].split(" ") #split it into a list
+            if(dict.get(linelist[0])): #If there are multiple lines with the same type of data (E.g any downstream stat)
+                linelist[1] = dict.get(linelist[0]) + linelist[1] #append the data to the already existing key rather than overwriting it
+            dict[linelist[0]] = linelist[1]
+    return dict
 
 # Usage
 #line = find_line_by_keyword('config.txt', 'database_host')
