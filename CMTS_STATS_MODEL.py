@@ -6,6 +6,7 @@ import Helpers
 class CMTS_STATS_MODEL:
 
     model = {}
+    model_string = ""
 
     def __init__(self):
         #self.parse_from_file('test.txt')
@@ -25,10 +26,14 @@ class CMTS_STATS_MODEL:
         finally:
             file.close()
 
+    def parse(self, input):
+        self.model_string = input
 
     def parse_from_clipboard(self, input):
         try:
+            print("Before Dictification: "+input+"\n")
             self.model = Helpers.dictify(input)
+            print("After Dictification: "+str(self.model)+"\n")
         except Exception as e:
             print(e)
 
@@ -37,9 +42,8 @@ class CMTS_STATS_MODEL:
 
 
 
-
-        
-CMTS_STATS_MODEL()
+if __name__ == '__main__':   
+    CMTS_STATS_MODEL()
 
 
 
