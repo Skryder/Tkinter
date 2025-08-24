@@ -39,7 +39,7 @@ class CMTS_Dump_Sheet:
             ii = ii + 1
 
 
-
-root = Tk()
-CMTS_Dump_Sheet(root)
-root.mainloop()
+if __name__ == '__main__':   
+    root = Tk()
+    CMTS_Dump_Sheet(root)
+    root.mainloop()

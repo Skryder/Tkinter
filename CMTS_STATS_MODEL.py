@@ -9,9 +9,7 @@ class CMTS_STATS_MODEL:
     model_string = ""
 
     def __init__(self):
-        #self.parse_from_file('test.txt')
-        pass
-
+        print("hello")
 
     def parse_from_file(self, filename):
         
@@ -41,7 +39,7 @@ class CMTS_STATS_MODEL:
         return self.model['CM Index']
 
 
-
+#This allows us to initialise and debug the file by itself as if it was main
 if __name__ == '__main__':   
     CMTS_STATS_MODEL()
 

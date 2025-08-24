@@ -11,7 +11,7 @@ class CMTSModel(BaseModel):
     Message: str
 
 app = FastAPI()
-template = Jinja2Templates(directory="DOCSISTA/templates")
+template = Jinja2Templates(directory="templates")
 
 
 
@@ -33,7 +33,7 @@ async def get_readable_stats(request: Request):
     )
 
 
-app.mount("/static", StaticFiles(directory="C:/Users/dakot/Documents/Code/Python/Tkinter/DOCSISTA/static", html = True), name="static")
+app.mount("/static", StaticFiles(directory="./static", html = True), name="static")
 
 
 

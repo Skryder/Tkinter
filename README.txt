@@ -5,9 +5,9 @@ Hello. This is Past Dakota.
 
 Future Dakota has probably forgotten everything again. So this README will detail exactly... wait how do i enable word wrapping
 
-alt+z is how. there we go. also don't forget to .venv\Scripts\activate
+alt+z is how. there we go. also don't forget to docsista_env\Scripts\activate
 
-You can run the API file with >>fastapi dev .\DOCSISTA\DOCSISTA_API.py 
+You can run the API file with >>fastapi dev .\DOCSISTA_API.py 
 
 Currently, the API endpoint is hosted on http://127.0.0.1:8000/DOCSISTA_API/
 
