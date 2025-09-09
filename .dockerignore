@@ -1,8 +1,11 @@
 env/
+docsista_env/
 __pycache__/
 
-*.env
-*.env.*
-env.*
+*.docsista_env
+*.docsista_env.*
+docsista_env.*
 tkinter%20examples/
 .venv/
+
+installed_packages.txt

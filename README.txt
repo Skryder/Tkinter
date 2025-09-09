@@ -5,7 +5,7 @@ Hello. This is Past Dakota.
 
 Future Dakota has probably forgotten everything again. So this README will detail exactly... wait how do i enable word wrapping
 
-alt+z is how. there we go. also don't forget to docsista_env\Scripts\activate
+alt+z is how. there we go. also don't forget to create your virtual environment and call docsista_env\Scripts\activate
 
 You can run the API file with fastapi dev .\DOCSISTA_API.py 
 
@@ -22,7 +22,7 @@ First thing's first, we've got a few files here.
 
 CMTS_STATS_MODEL is our "model" class... or at least it will be... All this does right now is hold the CMTS output in a python dictionary.
 
-The dictionary is built using our little Helpers file. This is mostly just a spot I put random bits of code to be used later. Right now it contains the ver-important dictify function which I made to break down the Huawei CMTS output into a python dictionary. 
+The dictionary is built using our little Helpers file. This is mostly just a spot I put random bits of code to be used later. Right now it contains the very important dictify function which I made to break down the Huawei CMTS output into a python dictionary. 
 
 The cool thing about dictionaries is that they can be easily converted to JSON and back which makes them very easy to serialize.
 
@@ -42,6 +42,4 @@ Jinja2 can do a lot of cool stuff like that, but we're just doing this for now.
 You'll notice that the api calls all go through the /static directory. This is primarily because the .js file in there needs to be able to access the API endpoints. You still need to figure out how to make this a bit more workable and configurable and understand it better.
 
 You'll see the index.html file in there is using Jinja brackets. You should figure out how to make the data appear a bit better there.
-
-I've finally got it running on Docker now. See the build and run commands earlier in the readme.
 
