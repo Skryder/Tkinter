@@ -1,6 +1,5 @@
 from fastapi import FastAPI, Request
 from pydantic import BaseModel
-import json
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import FileResponse, HTMLResponse
 from fastapi.templating import Jinja2Templates  
@@ -30,7 +29,7 @@ async def get_model():
 @app.get("/static/get-readable", response_class=HTMLResponse)
 async def get_readable_stats(request: Request):
     return template.TemplateResponse(
-        request=request, name="model.html", context={"model": md.model}
+        request=request, name="model.html", context={"cmIdx": "1"}
     )
 
 
