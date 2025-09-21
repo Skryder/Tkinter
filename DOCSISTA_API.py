@@ -29,7 +29,7 @@ async def get_model():
 @app.get("/static/get-readable", response_class=HTMLResponse)
 async def get_readable_stats(request: Request):
     return template.TemplateResponse(
-        request=request, name="model.html", context={"cmIdx": "1"}
+        request=request, name="model.html", context={"model": md.model}
     )
 
 

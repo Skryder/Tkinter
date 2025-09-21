@@ -7,7 +7,7 @@ Future Dakota has probably forgotten everything again. So this README will detai
 
 alt+z is how. there we go. also don't forget to docsista_env\Scripts\activate
 
-You can run the API file with fastapi dev .\DOCSISTA_API.py 
+You can run the API file with:   fastapi dev .\DOCSISTA_API.py 
 
 build with  docker build -t docsista . 
 run with    docker run -p 8000:8000 docsista
