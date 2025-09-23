@@ -5,6 +5,21 @@
     <title>title</title>
 </head>
 <body>
-    <h1>CM Index {{ cmIdx }}</h1>
+    <h1>CM Index {{ model['CM Index'] }}</h1>
+    <div id="UsArea">
+        <div id="UsBanner">Upstream Information {{model['Upstream Frequency(MHz)']}} </div>
+        <div id="UsField">Upstream Field
+            <div>US1 {{ model['Upstream Frequency(MHz)'][0] }}</div>
+            <div>US2 {{ model['Upstream Frequency(MHz)'][1] }}</div>
+            <div>US3 {{ model['Upstream Frequency(MHz)'][2] }}</div>
+            <div>US4 {{ model['Upstream Frequency(MHz)'][3] }}</div>
+        </div>
+        <div>Upstream Transmit Power {{ model['Upstream Transmit Power(dBmV)'] }}</div>
+        <div>Minimum Transmit Power {{ model['Minimum Transmit Power(dBmV)'] }}</div>
+        <div>Peak Transmit Power {{ model['Peak Transmit Power(dBmV)'] }}</div>
+        <div>Upstream SNR (db) {{ model['Upstream SNR(dB)'] }}</div>
+        <div>Minimum Upstream SNR (db) {{ model['Minimum Upstream SNR(dB)'] }}</div>
+        <div>Upstream Received Power (dbMV) {{ model['Upstream Received Power(dBmV)'] }}</div>
+    </div>
 </body>
 </html>
